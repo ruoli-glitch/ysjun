@@ -1,1 +1,858 @@
-1
+BanBen：2.9@：
+
+ShouYe：
+wzurl"http://m.360kan.com/"
+wzbt"360影视"
+shousour"http://m.360kan.com/"
+sousuobfurl"http://www.nangua5.com/play/替换id-0-1.htmlSouSuoJs
+sousuojqs"<span>电视剧</span>SouSuoJs
+sousuojqw"<span>娱乐</span>SouSuoJs
+sousuojzz"background-image:url\((.*?)\);">[\s\S]*?<p class="title">(.*?)</p>[\s\S]*?<p class="desc">(.*?)</p>SouSuoJs
+sousuobt"2"
+sousuofl"3"
+sousuotp"1"
+sousuodz"1"
+@：
+
+
+
+hotSousuo：
+wzurl"https://v.qq.com/biu/ranks/?t=hotsearch"
+wzbt"腾讯视频"
+shousour"https://v.qq.com/biu/ranks/?t=hotsearch"
+sousuobfurl"http://www.nangua5.com/play/替换id-0-1.htmlSouSuoJs
+sousuojqs"总榜单SouSuoJs
+sousuojqw"电视剧</h3>SouSuoJs
+sousuojzz"<a href="(.*?)" target="_blank" rel="noopener noreferrer" _stat="list-search-multi-item:keyword" title="(.*?)">SouSuoJs
+sousuobt"2"
+sousuofl"2"
+sousuotp"2"
+sousuodz"1"
+@：
+
+
+Piandan：
+wzurl"https://www.douban.com/people/205055992/doulists/collect?start=页码"
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"src="(.*?)" /></a>[\s\S]*?href="(.*?)">(.*?)</a>SouSuoJs
+sousuobt"3"
+sousuotp"1"
+sousuodz"2"
+playjianjies"<htmlSouSuoJs
+playjianjiew"</html>SouSuoJs
+playzz"<li><ahref=".*?"><divclass="cover"><imgsrc="(.*?)"alt="(.*?)"></div><divclass=".*?"><h2class="title">.*?</h2><divclass=".*?"><spanclass=".*?"data-rating=".*?">[\s\S]*?<span>(.*?)</span></div><divclass=".*?">(.*?)</div>SouSuoJs
+playbt"2"
+playtp"1"
+playjj"4"
+playpx"3"
+playkg"2"
+@：
+
+
+
+
+
+
+
+
+
+
+Dianshizhibo：
+wzurl""
+sjurl"https://gitee.com/zhang-xiaohan/hj/raw/master/ghj.js"
+dfljqs"text"SouSuoJs
+dfljqw""SouSuoJs
+dflsjjqs"Shujus:SouSuoJs
+dflsjjqw"Shujuw:SouSuoJs
+xxfljzz"(.*?),"(.*?)"SouSuoJs
+dsbt"1"
+dsdz"2"
+zidingyi"是"
+playxt"xy:".m3u8-flv"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+  站源开始--------
+
+
+Videos1：
+wzbt"哔咪动漫"
+wzurl"http://bimiacg.com"
+shousour"http://bimiacg.com/index.php/vod/search/wd/名字/page/1/"
+sousuobfurl"http://bimiacg.com/bangumi/替换id/play/1/1/SouSuoJs
+sousuojqs"<!doctypeSouSuoJs
+sousuojqw"body></html>SouSuoJs
+sousuojzz"<a href="[\s\S]*?/bangumi/bi/(.*?)/" title="(.*?)" target="_blank"[\s\S]*?class="img"><img class="lazy" src="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"class="player_list">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"class="vod-jianjie"><p>SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<a href="(.*?)">(.*?)<SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos1：
+wzbt"嘀哩嘀哩"
+wzurl"http://diliktv.com"
+shousour"http://diliktv.com/vodsearch/-------------.html?wd=名字&submit="
+sousuobfurl"http://diliktv.com/vodplay/替换id-1-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"lazyload" href="/voddetail/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlist">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"none;"><p>SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<aclass=".*?"href="(.*?)">(.*?)</a></li>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"2"
+playxt"xy:".mp4-video_mp4-download?repository=-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid=-static/player"SouSuoJs
+@：
+
+Videos2：
+wzurl"https://m.yst3.com"
+wzbt"万影网"
+shousour"https://m.yst3.com/vod-search-wd-名字-p-1.html"
+sousuobfurl"https://m.yst3.com/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"<a href="(.*?).html" title="(.*?)" target="_self"><div class="picsize"> <img class="loading" onerror="this.src=[\s\S]*?src="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<ul class="plau-ul-list">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<div class="vod_content">SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<a href="(.*?)".*?target="_self" title="(.*?)">.*?</a>SouSuoJs
+playbt"2"
+playdz"1"
+playxt"xy:"tc.qq.com-.mp4-1.m3u8-video_mp4-?type=m3u8-.miui.com-.m3u8"noxy:"url=-vid="SouSuoJs
+@：
+
+Videos3：
+wzbt"8号影院"
+wzurl"http://www.8haodyy.com"
+shousour"http://www.8haodyy.com/search.php?searchword=名字"
+sousuobfurl"http://www.8haodyy.com/play/替换id-0-0.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"上一页SouSuoJs
+sousuojzz"lazyload" href="/movie/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlist"SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<span class="detail-sketch">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a title='(.*?)' href='(.*?)'.*?target="_self">.*?</a>SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-m3u8&sign-video_mp4-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos4：
+wzbt"扛把子影院"
+wzurl"https://www.613767.com"
+shousour"https://www.613767.com//search/-------------.html?wd=名字"
+sousuobfurl"https://www.613767.com/play/替换id/1/1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"lazyload" href="/show/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"class="stui-content__playlist clearfixSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"class="col-pd">SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<a href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-download?repository=-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid=-.php"SouSuoJs
+@：
+
+Videos4：
+wzbt"奈飞星影视"
+wzurl"https://nfstar.net"
+shousour"https://nfstar.net/vodsearch/-------------/?wd=名字&submit="
+sousuobfurl"https://nfstar.net/vodplay/替换id-1-1/SouSuoJs
+playjianjies"<htmlSouSuoJs
+playjianjiew"</html>SouSuoJs
+sousuojzz"lazyload" href="/voddetail/(.*?)/" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlist"SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"sty;">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a class=".*?" href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+
+Videos1：
+wzbt"江湖电影网"
+wzurl"https://v.jhdyw.vip"
+shousour"https://v.jhdyw.vip/index.php/vodsearch/-------------/?wd=名字&submit="
+sousuobfurl"https://v.jhdyw.vip/index.php/jianghu/替换id-1-1/SouSuoJs
+sousuojqs"<ul class="myui-vodlist__media clearfixSouSuoJs
+sousuojqw"</ul>SouSuoJs
+sousuojzz"href="/index.php/voddetail/(.*?)/" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlistSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<spanclass="sketchcontent">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"2"
+playxt"xy:".mp4-.miui.com-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Video  s4：
+wzbt"麦豆TV"
+wzurl"https://www.mdoutv.com/"
+shousour"https://www.mdoutv.com/?s=名字"
+sousuobfurl"https://www.mdoutv.com/movie/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="[\s\S]*?/movie/(.*?).html"  target="_blank">[\s\S]*?alt="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<htmlSouSuoJs
+playjqw"</html>SouSuoJs
+playjianjies"<meta property="og:description" content="SouSuoJs
+playjianjiew"" /><metaSouSuoJs
+playzz"<a  href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:"ppp.ynitc.cn-.mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+
+Videos5：
+wzbt"奇岭影视"
+wzurl"http://ly6080.com"
+shousour"http://ly6080.com/vod/search.html?wd=名字"
+sousuobfurl"http://ly6080.com/vod/play/id/替换id/sid/1/nid/1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="/vod/detail/id/(.*?).html" title="(.*?)"><img src="(.*?)" alt=".*?"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"class="videourl clearfix">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"font-family:">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a href="(.*?)" title="(.*?)">.*?</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-pstatp.com-video_mp4-xigua.php-.miui.com-.m3u8-qq.com/video/"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos1：
+wzbt"鱼渔影视"
+wzurl"https://www.yumin.app"
+shousour"https://www.yumin.app/index.php/vod/search.html?wd=名字&submit="
+sousuobfurl"https://www.yumin.app/index.php/vod/detail/id/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"电影热播榜SouSuoJs
+sousuojzz"lazyload" href="/index.php/vod/detail/id/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<div class="stui-pannel_bd col-pd clearfix">SouSuoJs
+playjqw"</div>SouSuoJs
+playjianjies"style="display: none;">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-download?repository=-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos2：
+wzbt"快看影视"
+wzurl"http://m.kuaikan66.com"
+shousour"http://m.kuaikan66.com/search/名字-1.html"
+sousuobfurl"http://m.kuaikan66.com替换id0-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"data-original="(.*?)"/>[\s\S]*?<h2><a href="(.*?)" target="_self">(.*?)</a>SouSuoJs
+sousuobt"3"
+sousuotp"1"
+sousuodz"2"
+playjqs"class="plau-ul-listSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<div class="vod_content">SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"href="(.*?)" target="_self" title="(.*?)"SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8-qq.com/video/"noxy:"?url=-.php"SouSuoJs
+@：
+
+
+Videos3：
+wzbt"吾爱淘"
+wzurl"http://www.wuaitao.org"
+shousour"http://www.wuaitao.org/vod-search-pg-1-wd-名字.html"
+sousuobfurl"http://www.wuaitao.org/vod-play-id-替换id-src-1-num-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="/vod-detail-id-(.*?).html" title="(.*?)">[\s\S]*?<img class="loading" src="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"class="player_list">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"bdDesc: 'SouSuoJs
+playjianjiew"',SouSuoJs
+playzz"<a target="_blank" href="(.*?)"[\s\S]*?title="(.*?)">SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:"video_mp4-video_mp4-.miui.com-.mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+Vid  eos4：
+wzbt"阿里云资源网"
+wzurl"http://www.cqzyw.net:88/api.php/provide/vod/at/xml/?ac=list&wd=名字&pg=1"
+shousour"http://www.cqzyw.net:88/api.php/provide/vod/at/xml/?ac=list&wd=名字&pg=1"
+sousuobfurl"http://www.cqzyw.net:88/api.php/provide/vod/at/xml/?ac=videolist&ids=替换idSouSuoJs
+sousuojqs"<?xmlSouSuoJs
+sousuojqw"<class><tySouSuoJs
+sousuojzz"<id>(.*?)</id>[\s\S]*?<name><!\[CDATA\[(.*?)\]\]>SouSuoJs
+sousuobt"2"
+sousuotp"1"
+sousuodz"1"
+playjqs""><![CDATA[SouSuoJs
+playjqw"]]></dd>SouSuoJs
+playjianjies"<des><![CDATA[<p>SouSuoJs
+playjianjiew"</p>]]></des>SouSuoJs
+playzz"#(.*?)\$(.*?).m3u8SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos5：
+wzbt"完美看看"
+wzurl"https://www.wanmeikk.me"
+shousour"https://www.wanmeikk.me/so/-------------.html?wd=名字&submit="
+sousuobfurl"https://www.wanmeikk.me/project/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"电影热播榜SouSuoJs
+sousuojzz"href="/project/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<ul class="stui-content__playlist column8 clearfix">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<meta name="description" content="SouSuoJs
+playjianjiew""SouSuoJs
+playzz"href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-api/videopla-?vid="SouSuoJs
+@：
+
+
+
+Videos1：
+wzbt"七年影视"
+wzurl"http://m.time99.net"
+shousour"http://m.time99.net/tv-search-wd-名字.html"
+sousuobfurl"http://m.time99.net/tv-detail-id-替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"<div class="pic"><a href="/tv-detail-id-(.*?).html" target="_self" title="(.*?)"><img class="lazyload" data-src="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="yunbo_tabSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"剧情简介：</em></p>SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<li><a href="(.*?)" target="_self">(.*?)</a></li>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+Videos2：
+wzbt"TVB港剧网"
+wzurl"http://www.tvbgj.com"
+shousour"http://www.tvbgj.com/vod-search-wd-名字-p-1.html"
+sousuobfurl"http://www.tvbgj.com/gj/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"<a class="li-hv" href="/gj/(.*?).html" title="(.*?)"> [\s\S]*?data-original="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<ul class="urlli">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies";"><p>SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<a title='(.*?)' href='(.*?)' target="_self" id=".*?">.*?</a>SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+Videos3：
+wzbt"南柯电影网"
+wzurl"https://www.nkdyw.com"
+shousour"https://www.nkdyw.com/ss/名字-------------/"
+sousuobfurl"https://www.nkdyw.com/vodplay/替换id-1-1/SouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"lazyload" href="/voddetail/(.*?)/" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlistSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"class="data" style="display: none;">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos4：
+wzbt"尘落电影网"
+wzurl"http://v.atol7v0.cn"
+shousour"http://v.atol7v0.cn/?c=search&wd=名字&sort=addtime&order=desc&page=1"
+sousuobfurl"http://v.atol7v0.cn/play/替换id/0/0.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"title="(.*?)" target="_blank" href="/show/(.*?).html">[\s\S]*?<img alt=".*?" title=".*?" src="(.*?)"SouSuoJs
+sousuobt"1"
+sousuotp"3"
+sousuodz"2"
+playjqs"<div class="row tv-js-list">SouSuoJs
+playjqw"<div class="row tv-js-list">SouSuoJs
+playjianjies"<p class="pIntroTxt">SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<a href="(.*?)" style="[\s\S]*?" class="(.*?)">(.*?)</a>SouSuoJs
+playbt"3"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-download?repository=-video_mp4-.miui.com-data.vod.itc.cn-.m3u8-m3u8?sign=-v2/m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+Videos5：
+wzbt"泡泡影视"
+wzurl"http://m.msong.net"
+shousour"http://m.msong.net/tv-search-wd-名字.html"
+sousuobfurl"http://m.msong.net/tv-detail-id-替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"class="pic"><a href="/tv-detail-id-(.*?).html" target="_self" title="(.*?)"><img class="lazyload" data-src="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="yunbo_tabSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"剧情简介：</em></p>SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<a href="(.*?)" target="_self">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:"video_mp4-video_mp4-.miui.com-.mp4-.m3u8"noxy:"?url="SouSuoJs
+@：
+
+
+Videos1：
+wzbt"哈哩哈哩"
+wzurl"https://m.halitv.com"
+shousour"https://m.halitv.com/search/名字-1.html"
+sousuobfurl"https://m.halitv.com/play/替换id-1-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"data-echo="(.*?)"></div></a><div class="detail-media"><a href="/detail/(.*?).html" title="(.*?)">SouSuoJs
+sousuobt"3"
+sousuotp"1"
+sousuodz"2"
+playjqs"<ul class="layui-tab-itemSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<p class="detail-intro-txt ellipsis-2"><p>SouSuoJs
+playjianjiew"</p>SouSuoJs
+playzz"<a href="(.*?)" target="_self" title="(.*?)">.*?</a></li>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+
+
+Videos2：
+wzbt"秋霞电影网"
+wzurl"https://www.7xiady.cc"
+shousour"https://www.7xiady.cc/search/名字----------1---/"
+sousuobfurl"https://www.7xiady.cc/play/替换id-1-1/SouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="/detail/(.*?)/" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<div id="playlistSouSuoJs
+playjqw"</div>SouSuoJs
+playjianjies"<div class="stui-content__desc col-pd clearfix">SouSuoJs
+playjianjiew"喜欢追剧的朋友，请记住SouSuoJs
+playzz"<a href="(.*?)">(.*?)</a></li>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?id=-?url=-?vid="SouSuoJs
+@：
+
+
+Videos3：
+wzbt"思古影视"
+wzurl"https://www.sigu.cc"
+shousour"https://www.sigu.cc/search/名字----------1---.html"
+sousuobfurl"https://www.sigu.cc/detail/替换id.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"lazyload" href="/detail/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"id="playlistSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"剧情简介','SouSuoJs
+playjianjiew"','SouSuoJs
+playzz"href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-m3u8.css?vid="SouSuoJs
+@：
+
+
+Videos4：
+wzurl"http://1090ys1.com"
+wzbt"1090影视"
+shousour"http://1090ys1.com/search.html?wd=名字&submit="
+sousuobfurl"http://1090ys1.com/play/替换id-1-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"热播榜SouSuoJs
+sousuojzz"lazyload" href="/show/(.*?).html" title="(.*?)" data-original="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"stui-content__playlist clearfix"SouSuoJs
+playjqw"</div>SouSuoJs
+playjianjies"<span class="detail-content" style="display: none;">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Vid   eos5：
+wzbt"Nice影视网"
+wzurl"https://www.nicemov.com"
+shousour"https://www.nicemov.com/search.php?searchword=名字"
+sousuobfurl"https://www.nicemov.com/play/替换id-0-0.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"style="background: url\((.*?)\)  no-repe[\s\S]*?<a href="/movie/index(.*?).html">(.*?)</a>SouSuoJs
+sousuobt"3"
+sousuotp"1"
+sousuodz"2"
+playjqs"<div id="playlistSouSuoJs
+playjqw"</div>SouSuoJs
+playjianjies"<div class="plot">SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<a title='(.*?)' href='(.*?)'SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?id=-?url=-dplayer.html-undefined-?vid="SouSuoJs
+@：
+
+
+
+Videos1：
+wzbt"Chok吧电影院"
+wzurl"https://www.chok8.com"
+shousour"https://www.chok8.com/vodsearch/-------------.html?wd=名字&submit="
+sousuobfurl"https://www.chok8.com/voddetail/替换id.htmlSouSuoJs
+sousuojqs"historyclean text-muted pull-rightSouSuoJs
+sousuojqw"电影热播榜SouSuoJs
+sousuojzz"class="v-thumb stui-vodlist__thumb lazyload" href="/voddetail/(.*?).html" title="(.*?)" data-original="(.*?)">SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"vod:playfromSouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<span class="detail-content" style="display: none;">SouSuoJs
+playjianjiew"</span>SouSuoJs
+playzz"<a href="(.*?)">(.*?)</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-php-?vid="SouSuoJs
+@：
+
+Videos2：
+wzbt"美剧鸟"
+wzurl"http://m.meijuniao.com"
+shousour"http://m.meijuniao.com/vod-search-wd-名字-1.html"
+sousuobfurl"http://m.meijuniao.com替换id0-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="(.*?)" title="(.*?)" target="_self">
+<div class="picsize">[\s\S]*?src=".*?" data-original="(.*?)"SouSuoJs
+sousuobt"2"
+sousuotp"3"
+sousuodz"1"
+playjqs"<ul class="plau-ul-list">SouSuoJs
+playjqw"</ul>SouSuoJs
+playjianjies"<div class="vod_content">SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<a href="(.*?)"  target="_self" title="(.*?)" alt=".*?">.*?</a>SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:"video_mp4-video_mp4-.miui.com-.mp4-.m3u8"noxy:"?url=-.html-.php-?vid="SouSuoJs
+@：
+
+
+Videos3：
+wzbt"屠夫网"
+wzurl"http://m.tufutv8.com"
+shousour"http://m.tufutv8.com/vod-search-wd-名字-p-1.html"
+sousuobfurl"http://m.tufutv8.com替换id0-1.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"<li><a href="(.*?)" title="(.*?)" target="_self">[\s\S]*?<img class="loading" src="(.*?)" data-original="(.*?)"  />SouSuoJs
+sousuobt"2"
+sousuotp"4"
+sousuodz"1"
+playjqs"class="plau-ul-listSouSuoJs
+playjqw"</li>   
+  </ul>SouSuoJs
+  playjianjies"<div class="vod_content">SouSuoJs
+playjianjiew"</div>SouSuoJs
+  playzz"<a href="(.*?)"[\s\S]*?title="(.*?)"SouSuoJs
+  playbt"2"
+  playdz"1"
+  playkg"1"
+  playxt"xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-?vid="SouSuoJs
+  @：
+  
+Videos4：
+wzbt"最大资源网"
+wzurl"http://www.zdziyuan.com/inc/apidown.php?wd=名字"
+shousour"http://www.zdziyuan.com/inc/apidown.php?wd=名字"
+sousuobfurl"http://www.zdziyuan.com/inc/apidown.php?ac=videolist&ids=替换idSouSuoJs
+sousuojqs"<?xmlSouSuoJs
+sousuojqw"<class><tySouSuoJs
+sousuojzz"<id>(.*?)</id>[\s\S]*?<name><!\[CDATA\[(.*?)\]\]>SouSuoJs
+sousuobt"2"
+sousuotp"1"
+sousuodz"1"
+playjqs""><![CDATA[SouSuoJs
+playjqw"]]></dd>SouSuoJs
+playjianjies"<des><![CDATA[SouSuoJs
+playjianjiew"]]></des>SouSuoJs
+playzz"#(.*?)\$(.*?).m3u8SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos4：
+wzbt"天空资源网"
+wzurl"https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8/?ac=list&wd=名字&pg=1"
+shousour"https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8/?ac=list&wd=名字&pg=1"
+sousuobfurl"https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8/?ac=videolist&ids=替换idSouSuoJs
+sousuojqs"<?xmlSouSuoJs
+sousuojqw"<class><tySouSuoJs
+sousuojzz"<id>(.*?)</id>[\s\S]*?<name><!\[CDATA\[(.*?)\]\]>SouSuoJs
+sousuobt"2"
+sousuotp"1"
+sousuodz"1"
+playjqs""><![CDATA[SouSuoJs
+playjqw"]]></dd>SouSuoJs
+playjianjies"<des><![CDATA[SouSuoJs
+playjianjiew"]]></des>SouSuoJs
+playzz"#(.*?)\$(.*?).m3u8SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+
+Videos5：
+wzbt"OK资源网"
+wzurl"https://cj.okzy.tv/inc/apickm3u8s_subname.php?wd=名字"
+shousour"https://cj.okzy.tv/inc/apickm3u8s_subname.php?wd=名字"
+sousuobfurl"https://cj.okzy.tv/inc/apickm3u8s_subname.php?ac=videolist&ids=替换idSouSuoJs
+sousuojqs"<?xmlSouSuoJs
+sousuojqw"<class><tySouSuoJs
+sousuojzz"<id>(.*?)</id>[\s\S]*?<name><!\[CDATA\[(.*?)\]\]>SouSuoJs
+sousuobt"2"
+sousuotp"1"
+sousuodz"1"
+playjqs""><![CDATA[SouSuoJs
+playjqw"]]></dd>SouSuoJs
+playjianjies"<des><![CDATA[SouSuoJs
+playjianjiew"]]></des>SouSuoJs
+playzz"#(.*?)\$(.*?).m3u8SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+Videos1：
+wzbt"百度资源网"
+wzurl"http://m3u8.apibdzy.com/api.php/provide/vod/at/xml/?ac=list&wd=名字&pg=1"
+shousour"http://m3u8.apibdzy.com/api.php/provide/vod/at/xml/?ac=list&wd=名字&pg=1"
+sousuobfurl"http://m3u8.apibdzy.com/api.php/provide/vod/at/xml/?ac=videolist&ids=替换idSouSuoJs
+sousuojqs"<?xmlSouSuoJs
+sousuojqw"<class><tySouSuoJs
+sousuojzz"<id>(.*?)</id>[\s\S]*?<name><!\[CDATA\[(.*?)\]\]>SouSuoJs
+sousuobt"2"
+sousuotp"1"
+sousuodz"1"
+playjqs""><![CDATA[SouSuoJs
+playjqw"]]></dd>SouSuoJs
+playjianjies"<des><![CDATA[SouSuoJs
+playjianjiew"]]></des>SouSuoJs
+playzz"#(.*?)\$(.*?).m3u8SouSuoJs
+playbt"1"
+playdz"2"
+playkg"1"
+
+playxt"xy:".mp4-.m3u8"noxy:"?url=-?vid="SouSuoJs
+@：
+Videos1：
+wzbt"爱美剧"
+wzurl"https://www.meiju11.com"
+shousour"https://www.meiju11.com/new/video/search/名字.html"
+sousuobfurl"https://www.meiju11.com/new/Play/替换id-1-0.htmlSouSuoJs
+sousuojqs"<htmlSouSuoJs
+sousuojqw"</html>SouSuoJs
+sousuojzz"href="/new/Meiju/M(.*?).html">[\s\S]*?src="(.*?)" src="(.*?)" alt="(.*?)">SouSuoJs
+sousuobt"4"
+sousuotp"2"
+sousuodz"1"
+playjqs"detail-play-list clearfixSouSuoJs
+playjqw"</li>		</ul>SouSuoJs
+playjianjies"<div class="plot">SouSuoJs
+playjianjiew"</div>SouSuoJs
+playzz"<a href="(.*?)" title="(.*?)">SouSuoJs
+playbt"2"
+playdz"1"
+playkg"1"
+playxt"xy:"wsTime=-.m3u8"noxy:"url=-?vid="SouSuoJs
+@：
+
+站源结束--------
+
+
+Download：https://wwa.lanzous.com/b073he8wh@：
+
+touping：https://wwa.lanzous.com/b073v2zrg@：
+
+
+xiazaiqi：https://wwa.lanzoui.com/b0744x5ti@：
+
+Tanchukongz：开始@：
+
+
+gunggao：开启@：//广告开关
+
+
+PBname：
+pingbici：伦理@
+pingbici：情色@
+pingbici：写真@
+pingbici：福利@
+pingbici：三级@
+pingbici：苍井空@
+pingbici：论理@pingbici：理论片@pingbici：视讯美女@pingbici：小姨子@
+pingbici：三级片@pingbici：金瓶梅@
+pingbici：会员免费@pingbici：VIP视频秀@pingbici：妈妈的朋友@
+
+PBnameend：
+
+youxiang：1626830942@qq.com@：
+videosgg：开启@：//播放器视频来源显示开关
+syspgg：开启@：//首页赞助作者开关
+tongyitihuan：xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-vid="@：
+QQKF：1626830942@：
+
+zidingyijc：https://shimo.im/docs/vVYGvpjV3HGHqCQJ/@：
+
+daishu：http://api.xxt8.top/api.php?&url=替换网址&tid=替换tid&mm=123456&qq=@：
+
+daishuashuju：url"http://ds.hkiii.cn" tid"1"@：
+daishuashuju：url"http://111.hkiii.cn" tid"1"@：
+daishuashuju：url"http://ww.dsl66.cn" tid"930"@：
+
+
+QQqunkey：7OxPJ4MFNVfALIkSMAfRlmw9Nsg-1u7X@：
+
+
+TanchuGonggao：<font color='#FF0000'>2.0之前的版本</font>,请自行尽快更新到最新版！！！<font color='#FF0000'>一周后旧版本会无法使用</font>，<br/><br/>点击下方小圆球，<font color='#FF0000'>点分享软件也可更新!!!</font>@：
+
+XitongGonggao：如果播放卡顿，请自行切换播放源。如果还不行请点返回切换搜索站！！！长按剧集可下载视频！！@：
+
+
+GengxinGonggao：播放器界面新增视频来源。增加自动下一集功能，适配某些机型，小窗功能！！@：
+ 
+ 
+ 
+ 
+ 
