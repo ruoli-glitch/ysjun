@@ -1,20 +1,5 @@
 BanBen：1.0@：
 
-ShouYe：
-wzurl"http://m.360kan.com/"
-wzbt"360影视"
-shousour"http://m.360kan.com/"
-sousuobfurl"http://www.nangua5.com/play/替换id-0-1.htmlSouSuoJs
-sousuojqs"<span>电视剧</span>SouSuoJs
-sousuojqw"<span>娱乐</span>SouSuoJs
-sousuojzz"background-image:url\((.*?)\);">[\s\S]*?<p class="title">(.*?)</p>[\s\S]*?<p class="desc">(.*?)</p>SouSuoJs
-sousuobt"2"
-sousuofl"3"
-sousuotp"1"
-sousuodz"1"
-@：
-
-
 
 hotSousuo：
 wzurl"https://v.qq.com/biu/ranks/?t=hotsearch"
@@ -813,7 +798,7 @@ xiazaiqi：https://wwa.lanzoui.com/b0744x5ti@：
 Tanchukongz：开始@：
 
 
-gunggao：关闭@：//广告开关
+gunggao：开启@：//广告开关
 
 
 PBname：
@@ -831,7 +816,7 @@ PBnameend：
 
 youxiang：1626830942@qq.com@：
 videosgg：开启@：//播放器视频来源显示开关
-syspgg：关闭@：//首页赞助作者开关
+syspgg：开启@：//首页赞助作者开关
 tongyitihuan：xy:".mp4-video_mp4-.miui.com-.m3u8"noxy:"?url=-vid="@：
 QQKF：1626830942@：
 
